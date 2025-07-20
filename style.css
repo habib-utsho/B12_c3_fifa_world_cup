@@ -1,0 +1,108 @@
+/* Common */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.btn {
+  background-color: #dd0000;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+/* Custom style */
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+
+  margin: 50px auto;
+}
+.banner-left {
+  padding-left: 45px;
+}
+
+.banner h2 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.banner p {
+  color: #ffffff;
+  margin: 15px 0;
+  max-width: 65%;
+}
+.banner-right img {
+  display: block;
+}
+
+/* Upcoming matches */
+.upcoming-matches {
+  display: flex;
+  padding: 50px 0;
+  gap: 20px;
+}
+.upcoming-matches-left {
+  background-color: black;
+  width: 25%;
+  height: fit-content;
+
+  border-radius: 15px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upcoming-matches-left .btn:nth-child(1),
+.upcoming-matches-left .btn:nth-child(2) {
+  background-color: white;
+  color: black;
+}
+.upcoming-matches-right {
+  flex: 1;
+}
+
+.upcoming-matches-right .card {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 10px;
+}
+.upcoming-matches .card .card-body {
+  padding: 20px;
+}
+.upcoming-matches-right .card img {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.upcoming-matches-right .card .btn {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 17px;
+  margin-top: 10px;
+}
+.upcoming-matches-right .card h2 {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-bottom {
+  display: flex;
+  gap: 20px;
+  color: #161616cc;
+}
