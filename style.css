@@ -56,6 +56,28 @@ img {
 }
 
 /* Custom style */
+
+nav {
+  background-color: black;
+  padding: 15px 0;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  color: red;
+}
+
+/* Banner */
 .banner {
   display: flex;
   align-items: center;
