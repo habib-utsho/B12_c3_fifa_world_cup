@@ -120,6 +120,10 @@ img {
 
 /* Laptop/Tab */
 @media (max-width: 992px) {
+  /* Container */
+  .container {
+    margin: 0 20px;
+  }
   /* Banner */
   .banner h2 {
     font-size: 50px;
@@ -149,6 +153,10 @@ img {
 
 /* Mobile */
 @media (max-width: 768px) {
+  .container {
+    margin: 0 10px;
+  }
+
   .banner {
     flex-direction: column;
     text-align: center;
@@ -161,5 +169,8 @@ img {
   .banner .banner-left p {
     /* max-width: 100%; */
     margin: 15px auto;
+  }
+  .upcoming-matches-right {
+    grid-template-columns: 1fr;
   }
 }
